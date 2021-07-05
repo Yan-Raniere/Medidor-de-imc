@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <title>Calculo de IMC</title>
+
+</head>
+
+<body>
+
+    <main>
+    
+        <section>
+
+            <div class="first-container">
+
+                <div class="wrapper">
+
+                    <div class="left-side">
+
+                        <h2>Calcule aqui  o seu IMC*</h2>
+
+                        <p>* = Indice de massa corporal</p>
+
+                        <a href="">Clique aqui</a>
+                        
+                    </div>
+
+                    <div class="right-side">
+
+                        <div class="wrapper-image">
+                            <img class="a" src="images/white.svg" alt="">
+                            <img class="b" src="images/dark.svg" alt="">
+                            <img class="c" src="images/balanca.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="text">
+
+                <div class="wrapper">
+
+                    <h2>Oque é o Indice de Massa Corporal?</h2>
+                    
+                    <p>IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura. Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.</p>
+
+                    <p>Estar dentro do peso certo é importante porque estar acima ou abaixo desse peso pode influenciar bastante a saúde, aumentando o risco de doenças como desnutrição quando se está abaixo do peso, e AVC ou infarto, quando se está acima do peso. Assim, é comum os médicos, enfermeiros e nutricionistas avaliem o IMC da pessoa nas consultas de rotina para verificar a possibilidade de doenças que a pessoa pode estar pre-disposta.</p>
+
+                </div>
+
+            </div>
+
+            <div class="text" >
+
+                <div class="wrapper">
+
+                    <h2>Cálculo do peso ideal</h2>
+                    
+                    <p>Não existe ainda um consenso internacional sobre o padrão de IMC a ser adotado para quem tem mais de 60 anos de idade. No Brasil, o Ministério da Saúde adota e recomenda o chamado padrão de Lipschitz. Nela, os valores abaixo de 21,9 são considerados baixo peso. Entre 22 e 26,9, o peso está adequado. A partir de 27, a pessoa tem sobrepeso.</p>
+
+                    <p>Para adultos com menos de 60 anos, o Ministério da Saúde adota o padrão recomendado pela OMS (Organização Mundial da Saúde) desde 1997. Por ele, IMC abaixo de 18,4 é tido como baixo; entre 18,5 e 24,9, adequado; de 25 a 29,9, sobrepeso; acima de 30, obesidade.</p>
+                        
+                    <p>Abaixo se seu peso está adequado para a idade, através do IMC - Índice de Massa Corporal:</p>
+                    
+                </div>
+
+            </div>
+
+            <div id="imc" class="secound-container">
+
+                <div class="wrapper">
+
+                    <header>
+                        <h2>Calcule seu IMC</h2>
+                        <p>Fique atento para preencher corretamente os campos,<br>e não se esqueça de colocar somente dados reais para que a avaliação seja<br> mais aproximada possível</p>
+                    </header>
+
+             
+
+                    <form action="">
+
+                        <div class="input first">
+                            <label for="altura">Altura:</label>
+                            <input id="altura" type="number" placeholder="Coloque aqui sua altura em centimetros: Ex:170">
+                        </div>
+
+                        <div class="input">
+                            <label for="peso">Peso:</label>
+                            <input id="peso" type="number" placeholder="Coloque aqui seu peso em kilos(Somente númeors inteiros) Ex:90">
+                        </div>
+
+                        <div class="buttons">
+
+                            <button id="send" class="send" type="submit">Enviar Resposta</button>
+                            <button class="delete" type="reset">Excluir</button>
+
+                        </div>
+                       
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+        <script src="script.js"></script>
+
+    
+        
+</body>
+
+</html>

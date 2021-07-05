@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    --dark-bg: #252b42;
+    --buttons: #23a6f0;
+    --text-color: white;
+    --form-bg: #f6fbf9;
+}
+.wrapper {
+    margin-inline: auto;
+    max-width: 1140px;
+}
+body {
+    background-color: var(--dark-bg);
+}
+.first-container {
+    margin: 5rem;
+}
+.first-container .wrapper {
+    display: flex;
+}
+.first-container .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-container .left-side a {
+    padding: 1.5rem 2.5rem;
+    background-color: var(--buttons);
+    font-family: "Montserat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    width: 13rem;
+}
+.first-container .left-side h2 {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5.5rem;
+    color: white;
+    margin: 0;
+}
+.first-container .left-side p {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: white;
+    margin: 2.4rem 0;
+}
+
+/* Right side ====================== */
+
+.first-container .right-side {
+    width: 64rem;
+    height: 35rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.first-container .right-side .wrapper-image {
+    position: relative;
+    width: 37rem;
+    height: 35rem;
+}
+.first-container .right-side .a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.first-container .right-side .b {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.first-container .right-side .c {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+}
+
+/* text */
+
+.text h2 {
+    font-family: "Montsrrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.7rem;
+    line-height: 5rem;
+    color: #9c93b7;
+    margin: 5rem 0 2rem 0;
+}
+.text p {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+    color: var(--text-color);
+}
+
+/* Secound-container =================== */
+.secound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem;
+}
+
+.secound-container .wrapper {
+    border-radius: 2.4rem;
+    background: #dde2e0;
+    padding: 6rem 10rem;
+}
+.secound-container .wrapper header h2 {
+    font-family: "Karla";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.5rem;
+    line-height: 7rem;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.secound-container .wrapper header p {
+    font-family: "Karla";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    text-align: center;
+    margin: 0px 0 4rem 0;
+}
+.secound-container .wrapper form label{
+    
+font-family: 'Karla';
+    
+font-size: 2rem;
+}
+.secound-container .wrapper form .input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secound-container .wrapper form .input.first {
+    margin: 3rem 0 2rem 0;
+}
+.secound-container .wrapper form .input input {
+    width: 55rem;
+    padding: 2.2rem;
+    background: white;
+    border: 1.53px solid #0000001a;
+    border-radius: 1rem;
+}
+.secound-container .wrapper form .buttons {
+    width: 55rem;
+    margin: 3rem auto 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.secound-container .wrapper form .buttons .send {
+    width: 20rem;
+    height: 50px;
+    border-radius: 2rem;
+    background: var(--buttons);
+    border: 1.53px solid #0000001a;
+    color: white;
+    font-family: "Karla";
+    font-size: 1.5rem;
+}
+.secound-container .wrapper form .buttons .delete {
+    font-family: "Karla";
+    width: 15rem;
+    height: 5rem;
+    border-radius: 2rem;
+    border: 1.53px solid #0000001a;
+    background: #ec3c3c;
+    color: white;
+    font-size: 1.4rem;
+}
+.secound-container .wrapper form .buttons .delete:hover{
+    filter: brightness(1.4);
+}
+.secound-container .wrapper form .buttons .send:hover{
+    filter: brightness(1.2);
+}
